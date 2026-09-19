@@ -19,11 +19,6 @@ public class EmailController {
 
     private final EmailService emailService;
 
-    @GetMapping("/")
-    public void fun() {
-
-    }
-
     @GetMapping("/welcome")
     public ResponseEntity<ApiResponse<CustomSendEmailResponse>> sendWelcomeEmail() {
         SendEmailResponse sendEmailResponse = emailService.sendWelcomeEmail();
