@@ -1,4 +1,4 @@
-package com.c4lab.aws_ses_adapter;
+package com.c4lab.aws.ses.adapter;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
